@@ -10,4 +10,11 @@ import { RouterOutlet } from '@angular/router';
 })
 export class AppComponent {
   title = 'spotify';
+  
+}
+
+interface CarModel {
+  brand:string;
+  model:string;
+  year?:number;
 }
